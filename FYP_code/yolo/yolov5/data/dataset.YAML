@@ -1,0 +1,10 @@
+# train and val datasets (image directory or *.txt file with image paths)
+train: dataset/images/train/
+val: dataset/images/validation/
+test: dataset/images/test/
+
+# number of classes
+nc: 5
+
+# class names
+names: ['0','1','2','3','4']
